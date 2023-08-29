@@ -24,7 +24,7 @@ public class CommonSteps {
     }
 
     public void checkSearchResultsCanBeSorted() {
-        log.info("User can filter search results");
+        log.info("User can sort search results");
         assertThat(mainPage.isSortFunctionDisplayed()).as("The filter function is not displayed").isTrue();
     }
 }
