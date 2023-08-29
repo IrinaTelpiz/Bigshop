@@ -26,6 +26,6 @@ public class CommonDefinitions {
 
     @Then("related to search products are displayed on page")
     public void relatedToSearchProductsAreDisplayedOnPage() {
-        commonSteps.checkSearchResultsCanBeFiltered();
+        commonSteps.checkSearchResultsCanBeSorted();
     }
 }

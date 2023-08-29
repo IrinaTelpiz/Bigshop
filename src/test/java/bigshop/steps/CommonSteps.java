@@ -23,8 +23,8 @@ public class CommonSteps {
         mainPage.searchProduct(product);
     }
 
-    public void checkSearchResultsCanBeFiltered() {
+    public void checkSearchResultsCanBeSorted() {
         log.info("User can filter search results");
-        assertThat(mainPage.isFilterFunctionDisplayed()).as("The filter function is not displayed").isTrue();
+        assertThat(mainPage.isSortFunctionDisplayed()).as("The filter function is not displayed").isTrue();
     }
 }
